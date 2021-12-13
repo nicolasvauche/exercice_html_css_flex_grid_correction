@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ALIPTIC - Exercice HTML / CSS (Flex & Grid)</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="assets/images/icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <style>
+      body::before {
+        content: "ALIPTIC \A Exercice HTML / CSS (Flex & Grid)";
+      }
+      .bg-img1 {
+        border-left: 50px solid #1fc4f4;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-img1 size1 flex-w flex-c-m p-t-20 p-b-55 p-l-15 p-r-15">
+      <div class="wsize1 bor1 bg1 p-b-45 p-l-15 p-r-15 p-t-20 respon1">
+        <div class="wrappic1">
+          <img src="assets/images/logo.png" alt="Logo ALIPTIC" />
+        </div>
+        <p class="txt-center m1-txt1 p-t-33 p-b-68">
+          Exercice HTML / CSS (Flex & Grid)
+        </p>
+        <div class="alert alert-info text-justify">
+          <p class="p-t-10 font-weight-bold">Consignes :</p>
+          <p>
+            Intégrer la maquette fournie ci-dessous (ouvrez l'image dans un
+            nouvel onglet pour plus de détails)
+          </p>
+        </div>
+
+        <!-- Exercice X -->
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-header">
+                <span class="font-weight-bold">Maquette smartphone (XS) :</span>
+              </div>
+              <div class="card-body">
+                <div class="card-image text-center">
+                  <a href="assets/images/maquette_xs.png" target="_blank">
+                    <img
+                      src="assets/images/maquette_xs.png"
+                      alt="Maquette XS"
+                      height="250"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-header">
+                <span class="font-weight-bold">Maquette tablette (SM) :</span>
+              </div>
+              <div class="card-body">
+                <div class="card-image text-center">
+                  <a href="assets/images/maquette_sm.png" target="_blank">
+                    <img
+                      src="assets/images/maquette_sm.png"
+                      alt="Maquette SM"
+                      height="250"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-header">
+                <span class="font-weight-bold">Maquette desktop (MD) :</span>
+              </div>
+              <div class="card-body">
+                <div class="card-image text-center">
+                  <a href="assets/images/maquette_md.png" target="_blank">
+                    <img
+                      src="assets/images/maquette_md.png"
+                      alt="Maquette MD"
+                      height="250"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
